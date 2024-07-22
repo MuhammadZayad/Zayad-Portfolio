@@ -27,14 +27,14 @@ const skills = () => {
       <div className="container4" data-aos="flip-left" data-aos-duration="1000">
         <div className="c4child1">
           <img src="assets/Skills/react.png" alt="" className="img3" />
-          <h2 style={{ color: "white", marginLeft: "82px", marginTop: "8px" }}>
+          <h2 style={{ color: "white", marginLeft: "83px", marginTop: "8px" }}>
             REACT
           </h2>
         </div>
 
         <div className="c4child2">
           <img src="assets/Skills/javascript.png" alt="" className="img4" />
-          <h2 style={{ color: "white", marginLeft: "63px", marginTop: "-3px" }}>
+          <h2 style={{ color: "white", marginLeft: "53px", marginTop: "-3px" }}>
             JAVA SCRIPT
           </h2>
         </div>
@@ -49,7 +49,9 @@ const skills = () => {
         </div>
         <div className="c5child2">
           <img src="assets/Skills/oop.png" alt="" className="img6" />
-          <h2 style={{ color: "white", marginLeft: "97px", marginTop: "-3px" }}>
+          <h2
+            style={{ color: "white", marginLeft: "100px", marginTop: "-3px" }}
+          >
             OOP
           </h2>
         </div>

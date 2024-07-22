@@ -23,7 +23,7 @@ const Projects = () => {
 
   return (
     <>
-      <h1>PROJECTS</h1>
+      <h1 className="main-project">PROJECTS</h1>
       <div
         className="container10"
         id="projects"
@@ -106,7 +106,6 @@ const Projects = () => {
         </div>
 
         <div className="c12child2">
-          <h2> Project Images </h2>
           <Slider {...settings}>
             {images.map((image, index) => (
               <div key={index}>
